@@ -1,0 +1,84 @@
+html{
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    min-height:100%;
+    background:black;
+    background-size: cover;
+}
+
+* {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.notesWrapper {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    height: 100%;
+}
+
+.notesHeader {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 5%;
+    max-height: 10%;
+    min-height: 10%;
+    align-content: center;
+    padding:15px 0 15px 0;
+    background-color: #181818;
+    word-wrap: break-word;
+
+    font-size: 5vmin;
+    color: whitesmoke;
+    text-align: center;
+}
+.heading{
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.notesBody {
+    padding-top: 24px;
+    display: flex;
+    flex: 1 1 80%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: auto;
+    color: #111111;
+    font-size: 1em;
+}
+
+.notesFooter {
+    display: flex;
+    flex: 1 1 5%;
+    margin-bottom: 1em;
+}
+
+.logOutButton{
+    float: right;
+    margin: auto auto auto auto;
+    background: brown;
+    font-size: 2vmin;
+    max-width: 6%;
+    width: 6%;
+    max-height: 100%;
+    height: 80%;
+    transition: 0.2s ease-out;
+    border-radius: 4px;
+    color: white;
+}
+
+.logOutButton:hover{
+    background-color: crimson;
+    color: #fff;
+    transition: 0.2s ease-out;
+}

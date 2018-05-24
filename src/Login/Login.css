@@ -1,0 +1,100 @@
+.container{
+    display: block;
+    position: center;
+    width: 80%;
+    max-height: 20%;
+    margin: auto;
+    align-content: center;
+}
+
+.text{
+    display: block;
+    color: white;
+    max-height: 10%;
+    text-align: center;
+    font-size: 2em;
+    margin: 5% auto;
+}
+
+.email{
+    display: block;
+    width: 40%;
+    max-height: 15%;
+    margin: 5% 5% 5% 30%;
+}
+.inpEmail{
+    min-width: 100%;
+    border-radius: 4px;
+    padding: 5% 3% 5% 3%;
+    font-size: 1em;
+}
+
+.password{
+    display: block;
+    width: 40%;
+    max-height: 15%;
+    margin: 5% 5% 5% 30%;
+}
+
+.inpPassword{
+    min-width: 100%;
+    border-radius: 4px;
+    padding: 5% 3% 5% 3%;
+    font-size: 1em;
+}
+
+.buttons{
+    display: block;
+    margin: 0 5% 5% 38%;
+}
+
+
+.textButton{
+    min-width: 15%;
+    max-height: 25%;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: 'Droid Sans', sans-serif;
+    background-color: green;
+    color: #fff;
+    transition: 0.2s ease-out;
+    margin: 0 5% 0 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .textButton{
+        min-width: 40%;
+        max-height: 25%;
+        border-radius: 4px;
+        font-size: 1em;
+        font-family: 'Droid Sans', sans-serif;
+        background-color: green;
+        color: #fff;
+        transition: 0.2s ease-out;
+        margin: 5% 5% 0 0;
+    }
+    .buttons{
+        display: block;
+        margin: 5% 5% 5% 12%;
+    }
+
+    .text{
+        font-size: 1.5em;
+        text-align: center;
+        color: white;
+        margin: 10% auto;
+    }
+
+    .password{
+        display: block;
+        width: 95%;
+        max-height: 15%;
+        margin: 15% 15% 0 3%;
+    }
+    .email{
+        width: 95%;
+        display: block;
+        max-height: 15%;
+        margin: 25% 15% 0 3%;
+    }
+}
